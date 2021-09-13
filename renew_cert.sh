@@ -43,6 +43,6 @@ done
 
 if $isChange ; then
 	echo "Reload nginx"
-	systemctl reload nginx
+	synow3tool --gen-all && systemctl reload nginx
 fi
 
